@@ -1,0 +1,94 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{徐伟}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{readonlyfile@hotmail.com}{(+86) 180-0451-5446}{https://memeda.github.io}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{哈尔滨工业大学}, 哈尔滨，黑龙江}{2015年9月 -- 至今}
+\textit{在读硕士研究生}\ 计算机科学与技术, 预计 2017 年 7 月毕业
+\datedsubsection{\textbf{哈尔滨工业大学}, 哈尔滨, 黑龙江}{2011年8月 -- 2015年7月}
+\textit{学士}\ 计算机科学与技术 , 学分绩排名前10\%
+
+\section{\faUsers\ 项目/实习经历}
+
+\datedsubsection{\textbf{基于深度学习的中文分词、词性标注和命名实体识别任务}}{2016年3月 -- 至今}
+\role{C++}{近期主要任务}
+\begin{onehalfspacing}
+https://github.com/memeda/sequence-labeling-by-nn
+
+以构建神经网络版LTP为目标，采用深度学习和序列标注框架来构建模型。
+\begin{itemize}
+  \item 经过较充分调研，为三个任务建立统一的序列标注框架，使用双向LSTM、CRF等结构。
+  \item 尝试加入在大规模未标注语料上训练得到的词向量特征、手工特征来提高效果，并尝试修改模型来平衡性能与速度。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{面向不均匀类别的文本分类系统设计与实现}}{2015年3月 -- 2015年6月}
+\role{Python}{本科毕业设计}
+\begin{onehalfspacing}
+https://github.com/memeda/GriduationDesignCodeForTextClassification
+
+最终我们构建了两个文本分类系统，一个泛化能力更强，一个经仔细调参后效果可能更佳。
+\begin{itemize}
+  \item 在中英文均衡和不均衡数据集上，通过组合不同特征、分类器等做了大量的对比实验。
+  \item 调研尽可能多的方法，并做实验比较在不均衡数据集上应用各种方法的效果。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{百度实习}，北京}{2014年6月 -- 2014年9月}
+\role{C/C++ , Python , shell , MapReduce}{自然语言处理部门}
+知识库抽取程序在Hadoop集群的部署。
+\begin{itemize}
+  \item 验证核心程序正确性；提升脚本处理性能。
+  \item 在5个集群上部署抽取处理程序，在有限机器上持续处理20K个百灵库。
+  \item 历时一个月，抽取200+TB知识。
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: 偏好C++，熟练使用Python，有C，Shell，JS ，Java基础。
+  \item 工程经验: 熟悉部分脚本和WEB编写，做过一点QT、MFC、Java应用。
+  \item NLP领域经验：相对熟悉文本分类、分词，了解一点传统机器学习、深度学习的知识。
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{国家奖学金}{2014年10月}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 技术博客: http://blog.csdn.net/readonlyfile
+  \item GitHub: https://github.com/memeda
+  \item 外语: 英语6级
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
