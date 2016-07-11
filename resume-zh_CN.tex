@@ -28,15 +28,16 @@
 
 \section{\faUsers\ 项目/实习经历}
 
-\datedsubsection{\textbf{基于深度学习的中文分词、词性标注和命名实体识别任务}}{2016年3月 -- 至今}
-\role{C++}{近期主要任务}
+\datedsubsection{\textbf{基于深度学习的中文分词、词性标注和命名实体识别}}{2016年3月 -- 至今}
+\role{C++}{主要项目}
 \begin{onehalfspacing}
 https://github.com/memeda/sequence-labeling-by-nn
 
-以构建神经网络版LTP为目标，采用深度学习和序列标注框架来构建模型。
+以构建准确率高、速度快的工业级序列标注系统为目标。
 \begin{itemize}
-  \item 经过较充分调研，为三个任务建立统一的序列标注框架，使用双向LSTM、CRF等结构。
-  \item 尝试加入在大规模未标注语料上训练得到的词向量特征、手工特征来提高效果，并尝试修改模型来平衡性能与速度。
+  \item 融合深度表示学习（MLP、LSTM）与全局结构预测方法（CRF）。
+  \item 利用C++语言的封装与抽象能力，编写完成不同输入、不同表示学习、不同输出预测的模型。
+  \item 在与LTP(www.ltp-cloud.com)相同的评测数据集上完成大量实验，目前在词性标注和命名实体识别任务上相比基于传统结构化感知器的LTP 取得了更好的分数。
 \end{itemize}
 \end{onehalfspacing}
 
@@ -45,19 +46,19 @@ https://github.com/memeda/sequence-labeling-by-nn
 \begin{onehalfspacing}
 https://github.com/memeda/GriduationDesignCodeForTextClassification
 
-最终我们构建了两个文本分类系统，一个泛化能力更强，一个经仔细调参后效果可能更佳。
+我们构建了两个文本分类系统，分别基于提升树（侧重鲁棒性）和支持向量机（倾向高准确率）。
 \begin{itemize}
-  \item 在中英文均衡和不均衡数据集上，通过组合不同特征、分类器等做了大量的对比实验。
-  \item 调研尽可能多的方法，并做实验比较在不均衡数据集上应用各种方法的效果。
+  \item 在中英文均衡和不均衡数据集上，通过组合不同特征、分类器做了大量的对比实验。
+  \item 使用sampling、SMOTE、调整分类器权值的方法提升在不均衡数据集上的文本分类效果。
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{百度实习}，北京}{2014年6月 -- 2014年9月}
+\datedsubsection{\textbf{百度实习}，北京}{2014 年6月 -- 2014年9月}
 \role{C/C++ , Python , shell , MapReduce}{自然语言处理部门}
-知识库抽取程序在Hadoop集群的部署。
+独立完成知识库抽取系统在Hadoop集群上的部署。
 \begin{itemize}
-  \item 验证核心程序正确性；提升脚本处理性能。
-  \item 在5个集群上部署抽取处理程序，在有限机器上持续处理20K个百灵库。
+  \item 提升脚本处理性能；验证核心程序正确性。
+  \item 在5个集群上同时部署系统，持续处理20K个百灵库。
   \item 历时一个月，抽取200+TB知识。
 \end{itemize}
 
@@ -72,8 +73,8 @@ https://github.com/memeda/GriduationDesignCodeForTextClassification
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
   \item 编程语言: 偏好C++，熟练使用Python，有C，Shell，JS ，Java基础。
-  \item 工程经验: 熟悉部分脚本和WEB编写，做过一点QT、MFC、Java应用。
-  \item NLP领域经验：相对熟悉文本分类、分词，了解一点传统机器学习、深度学习的知识。
+  \item 工程经验: 熟悉基础Linux脚本和WEB（前端）编写，做过一点QT、MFC、Java应用。
+  \item 研究方向：分本分类、序列标注（结构化预测），深度学习。
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
@@ -82,7 +83,6 @@ https://github.com/memeda/GriduationDesignCodeForTextClassification
 \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.csdn.net/readonlyfile
   \item GitHub: https://github.com/memeda
   \item 外语: 英语6级
 \end{itemize}

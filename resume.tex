@@ -7,7 +7,10 @@
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
-
+% For this resume, Firstly thanks the template author .
+% and then, Jiang Guo had cost nearly 1 hour to re-write it and made it more professional and clearly ,
+%  Lixin Fan has mentioned many semantic errors and trival format errors ! 
+% Thanks a lot .
 \name{Wei Xu}
 
 % {E-mail}{mobilephone}{homepage}
@@ -24,32 +27,35 @@
 \textit{B.S.} in Computer Science (CS), grads among top 10\%
 
 \section{\faUsers\ Experience}
+
+\datedsubsection{\textbf{Deep Learning for \\ Chinese Word Segmentation, POS Tagging, NER}}{Mar. 2016 -- Present}
+\role{C++}{ Main Project }
+GitHub repository : https://github.com/memeda/sequence-labeling-by-nn
+
+The goal is to build industrial grade sequence labeling framework for NLP with high accuracy and speed.
+\begin{itemize}
+  \item Developed unified models that integrated neural representation learning (MLP, LSTM) with global structural inference methods (CRF).
+  \item Conducted extensive experiments on benchmark datasets and obtained better score than traditional structured perceptron-based implementations in LTP (www.ltp-cloud.com).
+\end{itemize}
+
+\datedsubsection{\textbf{Text Classification on Imbalanced Datasets }}{Mar. 2015 -- Jun. 2015}
+\role{Python}{Graduation Project}
+GitHub repository : https://github.com/memeda/GriduationDesignCodeForTextClassification
+
+Developed two systems respectively using boosting tree(robust) and SVM(high F1-score).
+\begin{itemize}
+  \item Explored a variety of models with different features and classifiers on balanced and imbalanced datasets.
+  \item Improved imbalanced data classification performance by sampling, SMOTE, etc.
+\end{itemize}
+
 \datedsubsection{\textbf{Baidu Inc.} Beijing, China}{Jun. 2014 -- Sep. 2014}
 \role{C/C++ , Python , shell , MapReduce}{ NLP Intern }
-Deployment for knowledge base extraction procedure In Hadoop cluster 
+Deployed knowledge base extraction system in Hadoop clusters independently.
 \begin{itemize}
-  \item Verify kernel procedure's  correctness . Promote shell program performance .
-  \item Deploy them in 5 Hadoop clusters and process data from 20K web database . 
-  \item 200+ TB knowledge obtained after continues 1 month .  
+  \item Improved shell program performance and verified kernel procedure's correctness.
+  \item Deployed them in 5 Hadoop clusters simultaneously and processed data from 20K web databases.
+  \item Obtained 200+ TB knowledge in one month.
 \end{itemize}
-
-\datedsubsection{\textbf{The Design and Implementation for Classification System \\ on unbalanced datasets }}{Mar. 2015 -- Jun. 2015}
-\role{Python}{Graduation Design}
-Two systems has been build , one for good generalization , the other for good classification result .
-\begin{itemize}
-  \item Totaly experiments for combination of different features , classifiers on balanced and unbalanced datasets 
-  \item Different methods have been demonstrated for unbalanced datasets to improve classification effect
-\end{itemize}
-
-\datedsubsection{\textbf{Yinshi map}}{Oct. 2014 -- Present}
-\role{Python , MySQL}{Extending and Maintenance}
-Calculate relations among various foods , regions and others from Weibo data in the backend .
-Display it in frontend ,  http://ys.8wss.com/ .
-\begin{itemize}
-  \item Make sense of the frontend quickly , and fix the BUG .
-  \item Extend backend function , modify and deploy relation extraction procedure . 
-\end{itemize}
-
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -60,9 +66,9 @@ Display it in frontend ,  http://ys.8wss.com/ .
 
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C/C++ is preference , familiar to Python , have experience in Shell , JS , Java
-  \item Development: experience in Scripts , Web , little for  QT , MFC , Java Application
-  \item NLP fields : familiar to Text Classification , Chinese Word Segmentation , knowing some about sequence labeling by Neural Network 
+  \item Programming Languages: skilled in C++ , familiar with C/Python, have experiences on Shell, JS, Java.
+  \item Development Experience: web(frontend), basic Linux scripts, GUI application(Qt/MFC/Java).
+  \item Research Interest: text classification, sequence labeling(structure prediction), deep learning.
 \end{itemize}
 
 \section{\faHeartO\ Honors and Awards}
@@ -70,7 +76,6 @@ Display it in frontend ,  http://ys.8wss.com/ .
 
 \section{\faInfo\ Miscellaneous}
 \begin{itemize}[parsep=0.5ex]
-  \item Techblog: http://blog.csdn.net/readonlyfile
   \item GitHub: https://github.com/memeda
   \item Foreign Language: English - CET-6
 \end{itemize}
