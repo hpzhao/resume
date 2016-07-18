@@ -46,9 +46,9 @@ https://github.com/memeda/sequence-labeling-by-nn
 \begin{onehalfspacing}
 https://github.com/memeda/GriduationDesignCodeForTextClassification
 
-构建了两个文本分类系统，分别基于提升树（侧重广适应性）和支持向量机（倾向高准确率）。
+我们构建了两个文本分类系统，分别基于提升树（侧重广适应性）和支持向量机（倾向高准确率）。
 \begin{itemize}
-  \item 在面向主题文本分类、情感分类的均衡与不均衡数据集上，完成不同文本表示、不同特征值选择、不同分类器的对比实验。
+  \item 在中、英文均衡和不均衡数据集上，完成不同文本表示、不同特征值选择、不同分类器的对比实验。
   \item 使用sampling、SMOTE、调整分类器权值的方法提升在不均衡数据集上的文本分类效果。
 \end{itemize}
 \end{onehalfspacing}
@@ -74,7 +74,7 @@ https://github.com/memeda/GriduationDesignCodeForTextClassification
 \begin{itemize}[parsep=0.5ex]
   \item 编程语言: 偏好C++，熟练使用Python，有C，Shell，JS ，Java基础。
   \item 工程经验: 熟悉基础Linux脚本和WEB（前端）编写，做过一点QT、MFC、Java应用。
-  \item 研究方向: 文本分类、序列标注（结构化预测），深度学习。
+  \item 研究方向：文本分类、序列标注（结构化预测），深度学习。
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
