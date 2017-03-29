@@ -28,20 +28,20 @@
 \role{语音后处理研究}{主要项目}
 主要研究中文语音识别之后文本不规范的问题。主要尝试的方法有下面几种：
 \begin{itemize}
-  \item 基于序列标注的模型，这里尝试了CRF，BI-LSTM，BI-LSTM-CRF三种模型。实验结果来看后两种模型效果相似，但明显好于CRF，达到了83\%左右的F值。
-  \item 基于生成的Pointer Network模型，这是基于seq2seq的改版，效果要略好于BI-LSTM-CRF。
-  \item 联合模型，将LSTM的结果作为CRF的特征，做了Stacking操作，但是效果来看并没有提升。
-  \item 将标点和顺滑联合做Multi-Task，但是结果也并没有显著提升，这主要由于语料问题导致有瓶颈。
+  \item 序列标注模型，这里尝试了CRF，BI-LSTM，BI-LSTM-CRF三种模型。实验结果来看后两种模型效果相似，但明显好于CRF，达到了83\%左右的F值。
+  \item 级联模型，将LSTM的结果作为CRF的特征，做了Stacking操作，比单纯的CRF要好一些。
+  \item 基于生成的Pointer Network模型，这是基于seq2seq的改版，在生成词的时候用一个指针去和原文做windows attention，选出windows下分数最高的词。效果要好于BI-LSTM-CRF。
+  \item 最后尝试了Transition-based模型，效果基本和Pointer Network持平。
 \end{itemize}
 
 
 \datedsubsection{\textbf{讯飞研究院实习}，北京}{2016年5月 -- 2016年9月}
 \role{研究员}{负责语文主观题评测工作}
 \begin{onehalfspacing}
-对高考语文主观题进行机器打分，在定标情况下达到人类老师评分水平：
+对高考语文主观题进行机器打分，在定标实验下达到老师评分水平：
 \begin{itemize}
   \item 抽取了一些相似度离散特征，例如基于embedding的余弦相似度，编辑距离等。
-  \item 采用了一些回归模型预测分数：SVR，Attention-Based-LSTM，并且也做了联合Stacking，从结果来看，联合模型得到的结果在0分一致率，1分一致率等指标上已经全面超过人类老师评分水平。
+  \item 采用了一些回归模型预测分数：SVR，Attention-Based-LSTM，并且也做了联合Stacking，从结果来看，联合模型得到的结果在0分一致率，1分一致率等指标上已经全面超过老师评分水平。
 \end{itemize} 
 \end{onehalfspacing}
 
@@ -50,7 +50,7 @@
 \begin{onehalfspacing}
 	对高考语文题干进行分析，用来抽取答题引擎需要的信息。
 	\begin{itemize}
-		\item 抽取答案个数，出发词，约束条件等语义槽。
+		\item 抽取答案个数，触发词，约束条件等语义槽。
 		\item 采用了SVM和CRF模型，实验结果证明该问题更适合序列标注模型。
 	\end{itemize} 
 \end{onehalfspacing}
