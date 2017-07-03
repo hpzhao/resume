@@ -18,48 +18,50 @@
   \phone{(+86) 130-6987-3530} 
 }
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{哈尔滨工业大学}}{2016 -- 至今}
-\textit{在读硕士研究生}\ 社会计算与信息检索中心(SCIR),导师:车万翔, 预计 2018 年 6 月毕业
+\datedsubsection{\textbf{哈尔滨工业大学}}{2016  -- 至今}
+\textit{在读硕士研究生}\ 社会计算与信息检索中心(SCIR),导师:车万翔, 预计 2018 年 7 月毕业
 \datedsubsection{\textbf{哈尔滨工业大学}}{2012 -- 2016}
 \textit{学士}\ 计算机科学与技术，学分绩排名前10\%
 
 \section{\faUsers\ 项目/实习经历}
-\datedsubsection{\textbf{中文顺滑}}{2016年9月 -- 至今}
-\role{语音后处理研究}{主要项目}
-主要研究中文语音识别之后文本不规范的问题。主要尝试的方法有下面几种：
+
+
+\datedsubsection{\textbf{CoNLL-17 Shared Task}}{2017年4月 -- 2017年5月}
+\role{词性标注模块}{第五名}
+主要研究多语言通用的词性标注方法，在64种语言整体评价获得\href{http://universaldependencies.org/conll17/results-upos.html}{第五名}。
 \begin{itemize}
-  \item 序列标注模型，这里尝试了CRF，BI-LSTM，BI-LSTM-CRF三种模型。实验结果来看后两种模型效果相似，但明显好于CRF，达到了83\%左右的F值。
-  \item 级联模型，将LSTM的结果作为CRF的特征，做了Stacking操作，比单纯的CRF要好一些。
-  \item 基于生成的Pointer Network模型，这是基于seq2seq的改版，在生成词的时候用一个指针去和原文做windows attention，选出windows下分数最高的词。效果要好于BI-LSTM-CRF。
-  \item 最后尝试了Transition-based模型，效果基本和Pointer Network持平。
+	\item 采用了两层RNN框架，第一层是character-level Bi-LSTM，用字符来获取词的表示，第二层是word-level Bi-LSTM, 该层的输入还包括词的布朗聚类以及预训练的word embedding。
 \end{itemize}
 
+\datedsubsection{\textbf{NLPCC-17 情感回复评测}}{2017年5月 -- 2017年6月}
+\role{指定情感回复}{第二名}
+给定一句话，生成指定情感的回复
+\begin{itemize}
+	\item 在传统的Seq2Seq模型上加入了3-hop Attention，在做Attention的时候加入了指定情感的embedding来控制生成的情感。另外利用了LTS来改善首字生成。
+\end{itemize}
+
+\datedsubsection{\textbf{中文顺滑}}{2016年9月 -- 2017年3月}
+\role{语音后处理研究}{}
+主要研究如何删除语音识别之后文本中冗余的词，使其通顺。
+\begin{itemize}
+  \item 主要尝试了Bi-LSTM-CRF和Pointer Network两种模型。后者的效果比前者的效果要好，达到了83\%左右的F值。
+
+\end{itemize}
 
 \datedsubsection{\textbf{讯飞研究院实习}，北京}{2016年5月 -- 2016年9月}
 \role{研究员}{负责语文主观题评测工作}
 \begin{onehalfspacing}
 对高考语文主观题进行机器打分，在定标实验下达到老师评分水平：
 \begin{itemize}
-  \item 抽取了一些相似度离散特征，例如基于embedding的余弦相似度，编辑距离等。
-  \item 采用了一些回归模型预测分数：SVR，Attention-Based-LSTM，并且也做了联合Stacking，从结果来看，联合模型得到的结果在0分一致率，1分一致率等指标上已经全面超过老师评分水平。
+  \item 采用了一些回归模型预测分数：SVR，Attention-Based-LSTM，得到的结果在0分一致率，1分一致率等指标上已经全面超过老师评分水平。
 \end{itemize} 
-\end{onehalfspacing}
-
-\datedsubsection{\textbf{语文高考题干分析}，863项目}{2016年3月 -- 2016年7月}
-\role{本科毕设}{哈工大百优论文候选}
-\begin{onehalfspacing}
-	对高考语文题干进行分析，用来抽取答题引擎需要的信息。
-	\begin{itemize}
-		\item 抽取答案个数，触发词，约束条件等语义槽。
-		\item 采用了SVM和CRF模型，实验结果证明该问题更适合序列标注模型。
-	\end{itemize} 
 \end{onehalfspacing}
 
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: 常用语言:Python,有一定C++基础
-  \item 研究领域: 自然语言处理，深度学习，中文顺滑
+  \item 编程语言: Python
+  \item 研究领域: 自然语言处理，深度学习，机器学习
   
 \end{itemize}
 

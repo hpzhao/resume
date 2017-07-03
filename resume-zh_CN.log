@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.2.23)  31 MAR 2017 18:20
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.2.24)  3 JUL 2017 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,7 +996,7 @@ Package: zh_CN-Adobefonts_external 2015/05/25 zh_CN-Adobefonts_internal Package
 
 
 (c:/texlive/2016/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-Package: xeCJK 2017/01/02 v3.4.5 Typesetting CJK scripts with XeLaTeX
+Package: xeCJK 2017/02/23 v3.4.6 Typesetting CJK scripts with XeLaTeX
 
 (c:/texlive/2016/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2017/02/10 v6878 L3 Experimental prototype document function
@@ -1228,7 +1228,7 @@ Package: l3keys2e 2017/02/10 v6878 LaTeX2e option processing using LaTeX3 keys
 \l__xeCJK_verb_exspace_skip=\skip71
 
 (c:/texlive/2016/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
-Package: xunicode-addon 2017/01/02 v3.4.5 addon file for xunicode
+Package: xunicode-addon 2017/02/23 v3.4.6 addon file for xunicode
 
 (c:/texlive/2016/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
@@ -1392,7 +1392,7 @@ other characters in Unicode lower plane
 
 *** Reloading Xunicode for encoding 'TU' ***
 ) (c:/texlive/2016/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
-File: xunicode-extra.def 2017/01/02 v3.4.5 extra definition for xunicode
+File: xunicode-extra.def 2017/02/23 v3.4.6 extra definition for xunicode
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1467,11 +1467,11 @@ File: xunicode-extra.def 2017/01/02 v3.4.5 extra definition for xunicode
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \fontfamily with sig. 'm' on line 4035.
+. Redefining command \fontfamily with sig. 'm' on line 4029.
 .................................................
 
 (c:/texlive/2016/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
-File: xeCJK.cfg 2017/01/02 v3.4.5 Configuration file for xeCJK package
+File: xeCJK.cfg 2017/02/23 v3.4.6 Configuration file for xeCJK package
 ))
 \g__fontspec_family_AdobeSongStd-Light.otf_int=\count186
 .................................................
@@ -1700,33 +1700,33 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 58.
+(hyperref)                removing `\char' on input line 60.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 66.
+(hyperref)                removing `\char' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 69.
+(hyperref)                removing `\char' on input line 71.
 
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (./resume-zh_CN.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 35602 strings out of 493068
- 687086 string characters out of 6138948
- 731296 words of memory out of 5000000
- 39113 multiletter control sequences out of 15000+600000
+ 35603 strings out of 493068
+ 687104 string characters out of 6138948
+ 729315 words of memory out of 5000000
+ 39114 multiletter control sequences out of 15000+600000
  4248 words of font info for 46 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 69i,5n,78p,10519b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,5n,74p,10519b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume-zh_CN.pdf (1 page).
