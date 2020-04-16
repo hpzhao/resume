@@ -80,12 +80,12 @@
   \vspace{1.5ex}
 }
 
-\newcommand{\role}[2]{
-  {\par \textit{#1} ~ #2 \par}
+\newcommand{\role}[3]{
+  {\par \textit{#1} ~ #2 \hfill #3 \par}
   \vspace{0.85ex}
 }
 
 \newcommand{\expattr}[3]{
-  {\par \textit{#1} ~ {#2} \hfill #3 \par}
+  {\par \textit{#1} ~ #2 \hfill #3 \par}
   \vspace{0.85ex}
 }
