@@ -80,8 +80,8 @@
   \vspace{1.5ex}
 }
 
-\newcommand{\role}[3]{
-  {\par \textit{#1} ~ #2 \hfill #3 \par}
+\newcommand{\role}[2]{
+  {\par#1 \hfill #2 \par}
   \vspace{0.85ex}
 }
 

@@ -20,18 +20,10 @@
 % keep the last empty braces!
 %\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
 
-\section{\faInfo\ 求职基础信息}
-\begin{center}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cc|cc|cc|cc}
-  当前工作年限 & \textasciitilde 3年 & 当前工作地点 & 北京 & 
-  期望入职时间 & 2020年7月+          & 期望工作地点 & \textbf{深圳}
-\end{tabular*}
-\end{center}
-
 \section{\faHistory\ 工作经历}
 
 \datedsubsection{\textbf{百度}}{2017年7月 -- 至今}
-\expattr{高级研发工程师(T5)}{自然语言处理部}{北京}
+\expattr{NLP算法工程师(T5)}{自然语言处理部}{北京}
 \begin{onehalfspacing}
 负责团队文本摘要子方向（共1$ \rightarrow $2人），持续迭代技术，有力支持业务
 \begin{itemize}
@@ -42,23 +34,24 @@
 \end{onehalfspacing}
 
 \section{\faUsers\ 项目经历 \small（按完成度降序）}
-\datedsubsection{\textbf{面向实用的工业级文本摘要系统}}{2018年1月 -- 至今}
-\role{C++11, Python2}{项目负责人，项目指导人，策略执行者}{@百度}
+\datedsubsection{\textbf{面向实用的工业级中文文本摘要系统}}{2018年1月 -- 至今}
+\role{项目负责人，项目指导人，策略执行者}{@百度}
 \begin{onehalfspacing}
-文本摘要系统是团队成熟技术沉淀和能力输出基石；已有系统过时难以维护，需重新设计、开发
+文本摘要系统是团队能力输出基石和成熟技术积淀；旧系统效果不佳难维护，需重构算法、代码
 \begin{itemize}
-  \item 建立原型系统(Python)$\rightarrow$线上LIB(C++) 开发流，满足效果快速验证与稳定高效部署的需求
-  \item LIB开发，10页设计文档，59天发版；1.5W行代码 0 BUG，综合评分超83.6\%同语言模块；低耦合高内聚，可维护性强；迭代近2年，指导新人接手及开发新策略
-  \item 核心模型多层次表征输入，多维度刻画句子重要性；多策略分治处理复杂输入；摘要效果绝大部分时间领先竞品
+  \item 类型分发+多摘要策略分治应对多元输入；核心模型多层次表征输入，多维度刻画句子重要性
+  \item 建立原型$\rightarrow$LIB工作流，兼顾开发、运行效率；LIB 59天发版，1.5W行代码，低耦合高内聚
+  \item 迭代近2年，稳定、持续支持多个重点业务；摘要效果绝大部分时间领先竞品
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{摘要技术难点攻坚：连贯性优化，Low-Resource摘要生成}}{2019年4月 -- 至今}
-\role{Python 2 $\times$ 3}{项目负责人，策略执行者}{@百度}
+\datedsubsection{\textbf{摘要技术难点攻坚：连贯性优化，Low-Resource摘要生成优化}}{2019年4月 -- 至今}
+\role{项目负责人，策略执行者}{@百度}
 \begin{onehalfspacing} 
+针对摘要在实际应用中的难点，调研并设计算法优化
 \begin{itemize}
-  \item 句间连贯性影响阅读/听体验及语义正确性，是抽取式摘要难点；实现基于REINFORCE的端到端方案，效果不及预期；设计、实现基于策略的MMR调整法，效果略正向，合入线上摘要系统
-  \item 生成式摘要标注成本高，探索Low-Resource摘要生成有必要性；正在尝试结合预训练技术（如BART）和标题远监督信息提升生成效果
+  \item 连贯性影响阅读/听体验及语义正确性，是抽取式摘要难点；应用基于REINFORCE的End2End方案，效果不实用；设计、实现基于策略的MMR调整法，效果略正向，合入线上摘要系统
+  \item 生成式摘要标注成本高，提升Low-Resource下摘要生成有必要性；完成半监督摘要方法调研、验证预训练（如BART）在少数据量下的有效性；正在尝试利用标题远监督信息提升重要信息覆盖
 \end{itemize}
 \end{onehalfspacing}
 
@@ -71,12 +64,14 @@
 
 \section{\faCogs\ 专业技能 \& 其他}
 % increase linespacing [parsep=0.5ex]
+\begin{onehalfspacing} 
 \begin{itemize}
-  \item \makebox[4.2em][s]{工程方面}:  \makebox[34em][s]{具备计算机思维；熟悉C++11/Python/Shell; 有PyTorch/TF1.x/飞桨开发经验}
   \item \makebox[4.2em][s]{研究方面}:  \makebox[34em][s]{拥有机器学习、深度学习基本素养；有文本摘要、词法分析、文本分类经验}
-  \item \makebox[4.2em][s]{个人评价}:  \makebox[34em][s]{开发能力中上，学术研究能力提升中；尊重排期 \& 精益求精；渴望创造价值}
+  \item \makebox[4.2em][s]{工程方面}:  \makebox[34em][s]{具备计算机思维；熟悉C++11/Python/Shell; 有PyTorch/TF1.x/飞桨开发经验}
+  \item \makebox[4.2em][s]{个人评价}:  分析解决问题能力中上，开发能力中上，学术研究能力提升中；尊重排期 \& 精益求精
   \item \makebox[4.2em][s]{\ G i t H u b \ }: https://github.com/memeda
 \end{itemize}  
+\end{onehalfspacing}
   
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
